@@ -5,7 +5,7 @@ Submit javascript objects in the form of a form
 ###formSubmit
 ####Description
 ```php
-void formSubmit(string url, string method, object submit_data)
+void formSubmit(string url, string method, array submit_data)
 ```
 Creates and submits a form with fields from data
 
@@ -16,7 +16,7 @@ Creates and submits a form with fields from data
 #####method 
   The method attribute of the form
 #####submit_data 
-  js obejct to be converted to form fields
+  Array to be converted to form fields. Can be associative or indexed.
   
 ####Example
   ```javascript
