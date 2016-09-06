@@ -4,7 +4,9 @@ Submit javascript objects in the form of a form
 ##Methods 
 ###formSubmit
 ####Description
+```php
 void formSubmit(string url, string method, object submit_data)
+```
 Creates and submits a form with fields from data
 
 ####Parameters
