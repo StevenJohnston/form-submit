@@ -1,22 +1,22 @@
 # form-submit
 Submit javascript objects in the form of a form
 
-#Methods 
-#formSubmit
-##Description
+##Methods 
+###formSubmit
+####Description
 void formSubmit(string url, string method, object submit_data)
 Creates and submits a form with fields from data
 
-##Parameters
+####Parameters
 =======
-###url
+#####url
   The url to submit the form too
-###method 
+#####method 
   The method attribute of the form
-###submit_data 
+#####submit_data 
   js obejct to be converted to form fields
   
-##Example
+####Example
   ```javascript
   var post_data =
   {
