@@ -1,21 +1,23 @@
 # form-submit
 Submit javascript objects in the form of a form
 
-Methods 
-formSubmit
-Description
+#Methods 
+#formSubmit
+##Description
 void formSubmit(string url, string method, object submit_data)
 Creates and submits a form with fields from data
 
-Parametes
-url
+##Parameters
+=======
+###url
   The url to submit the form too
-method 
+###method 
   The method attribute of the form
-submit_data 
+###submit_data 
   js obejct to be converted to form fields
   
-Example
+##Example
+  ```javascript
   var post_data =
   {
     username: 'steven', 
@@ -24,8 +26,9 @@ Example
     hobbies: ['js','html','php']
   };
   $().formSubmit("/create_user", 'post', $post_data)
-  
+  ```
   Created Form
+  ```html
   <form method="post" action="/create_user">
    <input type="text" name="username" value="steven">
    <input type="text" name="password" value="pass123">
@@ -34,6 +37,6 @@ Example
    <input type="text" name="hobbies[1]" value="html">
    <input type="text" name="hobbies[2]" value="php">
   </form>
-  
+  ```
   
   
