@@ -10,7 +10,6 @@ void formSubmit(string url, string method, array submit_data)
 Creates and submits a form with fields from data
 
 ####Parameters
-=======
 #####url
   The url to submit the form too
 #####method 
