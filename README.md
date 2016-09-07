@@ -1,5 +1,5 @@
 # form-submit
-Submit javascript objects in the form of a form
+Submit javascript array in the form of a form
 
 ##Methods 
 ###formSubmit
