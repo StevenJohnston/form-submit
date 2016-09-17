@@ -11,7 +11,7 @@ Creates and submits a form with fields from data
 
 ####Parameters
 #####url
-  The url to submit the form too
+  The url to submit the form to
 #####method 
   The method attribute of the form
 #####submit_data 
